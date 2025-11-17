@@ -1,6 +1,9 @@
 # Amarisoft digital twin 
-Based on the already existing [5G network emulator](https://github.com/fabrizio-granelli/comnetsemu_5Gnet), with an added new functionality:
+This project allows to build a Network Digital Twin of the Amarisfot Callbox Classic 4G/5G Base Station.
+The NDT is based on the already existing [5G network emulator](https://github.com/fabrizio-granelli/comnetsemu_5Gnet), with an added new functionality:
 **Implementation of a command line interaction for automatic user creation.** 
+And it provides a periodic synchronization between the Amarisoft Physical Twin and the Network Digital Twin, every 2 minutes.
+The synchronization is achieved by means of trasferring the traffic captured from the Physical Twin and playing it back in the Digital Twin.
 
 ## Prerequisites
 
@@ -83,7 +86,7 @@ sudo python3 test.5G.Net.test.py
 
 
 
-### Contact
+### Contacts
 
 Amarisoft digital-twin creation: 
 - Tatenda Horiro Zhou - tatendazho@gmail.com
@@ -91,10 +94,3 @@ Amarisoft digital-twin creation:
 Supervised by: 
 - Fabrizio Granelli - fabrizio.granelli@unitn.it
 
-
-
-
-
-
-
-# 5G-Digital-twin
