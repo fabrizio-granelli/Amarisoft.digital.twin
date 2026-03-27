@@ -1,9 +1,8 @@
 # Amarisoft digital twin from PRIN 2022 6GTWINS project
 The 6GTWINS project aims at studying the design, deployment and integration of Network Digital Twins within 5G/6G mobile networks.
 This software represents one part of the overall project activities, and it allows to build a Network Digital Twin of the Amarisfot Callbox Classic 4G/5G Base Station.
-The NDT is based on the already existing [5G network emulator](https://github.com/fabrizio-granelli/comnetsemu_5Gnet), with an added new functionality:
-**Implementation of a command line interaction for automatic user creation.** 
-And it provides a periodic synchronization between the Amarisoft Physical Twin and the Network Digital Twin, every 2 minutes.
+The NDT is based on the already existing [5G network emulator](https://github.com/fabrizio-granelli/comnetsemu_5Gnet), with the added new functionality (necessary to transform it in a Digital Twin: **Implementation of status data transfer between the real infrastructure and the related Network Digital Twin.** 
+This functionality allows to achieve an accurate representation of the Physical Twin, and it provides a periodic synchronization between the Amarisoft Physical Twin and the Network Digital Twin every 2 minutes.
 The synchronization is achieved by means of trasferring the traffic captured from the Physical Twin and playing it back in the Digital Twin.
 
 ## Prerequisites
